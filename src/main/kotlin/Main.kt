@@ -12,6 +12,7 @@ fun main() {
         mylist.add(input)
         size--
     }
+    println(mylist)
     val filteredlista  =mylist.filter {
         it.contains(other = "A")
     }
@@ -28,5 +29,6 @@ fun main() {
         println("This is my list:  ${it.uppercase()}")
     }
 
-    println(mylist)
+
+
 }
