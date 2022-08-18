@@ -14,7 +14,7 @@ fun main() {
     }
     println(mylist)
     val filteredlista  =mylist.filter {
-        it.contains(other = "A")
+        it.contains(other = "B")
     }
     println(filteredlista)
     filteredlista.forEach(){
