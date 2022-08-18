@@ -17,7 +17,7 @@ fun main() {
     }
     println(filteredlista)
     filteredlista.forEach(){
-        println("look ${it.uppercase()}")
+        println("This is my list:  ${it.uppercase()}")
     }
 
     val filteredlistb=mylist.filter {
@@ -25,7 +25,7 @@ fun main() {
     }
     println(filteredlistb)
     filteredlistb.forEach(){
-        println("look ${it.uppercase()}")
+        println("This is my list:  ${it.uppercase()}")
     }
 
     println(mylist)
